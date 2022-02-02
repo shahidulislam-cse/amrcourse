@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .menu {
+            background-color: chocolate;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        li {
+            list-style: none;
+
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        hr {
+            border: 1px solid chocolate;
+        }
+
+        .menu>ul>li>a {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            padding: 15px;
+        }
+
+        .main {
+            display: flex;
+        }
+
+        .main h1 {
+            color: chocolate;
+        }
+
+        .post {
+            margin: 8px;
+            padding: 8px;
+            border: 1px solid #eee;
+            flex: 3;
+        }
+
+        .side {
+            margin: 8px;
+            padding: 8px;
+            border: 1px solid #eee;
+            flex: 1;
+        }
+
+
+
+        .singel-post p {
+            text-align: justify;
+        }
+
+        .latest-post>a {
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+            color: rgb(29, 31, 31);
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-menu a {
+            text-decoration: none;
+            margin: 20px;
+            color: cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>AmarCourse</h1>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">BLOG</a></li>
+        </ul>
+
+    </div>
+    <div class="main">
+        <div class="post">
+            <div class="singel-post">
+                <h1>My First Post</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus temporibus repudiandae iure, hic
+                    officia id. Amet, esse maxime. Sapiente</p>
+                <hr>
+            </div>
+            <div class="singel-post">
+                <h1>My Second Post</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus temporibus repudiandae iure, hic
+                    officia id. Amet, esse maxime. Sapiente, </p>
+                <hr>
+            </div>
+            <div class="singel-post">
+                <h1>My third Post</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus temporibus repudiandae iure, hic
+                    officia id. Amet, esse maxime. Sapiente, </p>
+                <hr>
+            </div>
+        </div>
+        <div class="side">
+            <h1>Latest Post</h1>
+            <div class="latest-post">
+                <a href="#">New Post</a>
+                <a href="#">New Post</a>
+                <a href="#">New Post</a>
+            </div>
+
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, iure totam. Cumque sit alias tempora
+                voluptates quidem accusamus exercitationem inventore odit.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-menu">
+            <a href="#">CopyRught</a>
+            <a href="#">CopyRught</a>
+            <a href="#">CopyRught</a>
+        </div>
+        <div class="address">
+            <p>Barishal </p>
+        </div>
+        <div class="copy">
+            <p>All rights reserved</p>
+        </div>
+    </div>
+</body>
+
+</html>
